@@ -1,0 +1,26 @@
+body{
+
+}
+
+.btn,
+.btn:link
+.btn:visited{
+
+}
+
+
+dl{
+	overflow: hidden; /* Overflow hidden is a clearfix that reminds the <dl> to wrap around its floated children */
+}
+
+dt{
+	float: left;
+	clear: left; /* forces dt to go below anything that has been floated */
+}
+
+dd{
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
