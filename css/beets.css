@@ -1,21 +1,37 @@
-body{
-
+html{
+	background-color:lightgrey;
+	font-family: sans-serif;
 }
 
-.btn,
-.btn:link
-.btn:visited{
+body{
+	background-color: white;
+	border: 2px solid gray;
+	border-radius: 20px;
+}
 
+.button,
+.button:link
+.button:visited{
+	margin-left: 1em;
+	margin-bottom: 0.25em;
+	background-color: rgba(200,200,400,0.5);
+	border: 2px solid darkred;
+	border-radius: 20px;
+	padding: 0.3em;
+	display: inline-block;
+	color: darkred;
 }
 
 
 dl{
+	padding:1em;
 	overflow: hidden; /* Overflow hidden is a clearfix that reminds the <dl> to wrap around its floated children */
 }
 
 dt{
 	float: left;
 	clear: left; /* forces dt to go below anything that has been floated */
+	width: 8em;
 }
 
 dd{
@@ -23,4 +39,34 @@ dd{
 	margin: 0;
 	padding: 0;
 }
+
+h1,
+h2{
+	padding: 1em;
+	color: darkred;
+}
+
+p{
+	padding:1em;
+	line-height: 1.5em;
+
+}
+
+img{
+	width:100%;
+}
+
+figcaption{
+	background-color:lightgrey;
+}
+
+div{
+	border:1px solid lightgrey;
+}
+
+
+blockquote{
+	background-color:lightgrey;
+}
+
 
