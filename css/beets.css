@@ -4,6 +4,7 @@ html{
 }
 
 body{
+	margin:2rem;
 	background-color: white;
 	border: 2px solid gray;
 	border-radius: 20px;
@@ -69,4 +70,7 @@ blockquote{
 	background-color:lightgrey;
 }
 
-
+ul,
+ol{
+	padding:1rem;
+}
